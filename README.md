@@ -1,75 +1,177 @@
-# React + TypeScript + Vite
+# 📚 ScholarHub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**ScholarHub** is a modern educational platform designed to help students learn, practice, and succeed. The project aims to provide a clean, responsive, and user-friendly interface where students can access study notes, mock tests, learning resources, and course materials.
 
-Currently, two official plugins are available:
+> **Tagline:** *Notes • Tests • Success*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Project Status
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Current Phase:** Frontend Development
 
-## Expanding the ESLint configuration
+The project is currently under active frontend development, focusing on building a responsive, visually appealing, and scalable user interface.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## ✨ Features (In Progress)
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+* Responsive Landing Page
+* Modern Navigation Bar
+* Hero Section
+* Authentication (Login / Sign Up Modal)
+* Course Catalog
+* Study Notes Section
+* Mock Test Dashboard
+* Search Functionality
+* Smooth Animations
+* Mobile-Friendly Design
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+---
 
+## 🛠️ Technologies Used
+
+### Frontend
+
+* HTML5
+* CSS3
+* TypeScript
+* React.js
+* React Router DOM
+* Tailwind CSS
+* Framer Motion
+* React Hook Form
+* Lucide React Icons
+
+### Development Tools
+
+* Visual Studio Code
+* Git
+* GitHub
+* Vite
+* npm
+
+---
+
+## 📂 Project Structure
+
+```text
+ScholarHub/
+│
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── styles/
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── index.css
+│
+├── package.json
+├── vite.config.ts
+└── README.md
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🎯 Project Goals
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+* Create a modern educational platform for students.
+* Deliver a clean and intuitive user experience.
+* Ensure responsiveness across all devices.
+* Build reusable React components.
+* Maintain scalable and organized code architecture.
 
+---
+
+## 📸 Planned Modules
+
+* Home
+* Courses
+* Notes
+* Mock Tests
+* Dashboard
+* Authentication
+* User Profile
+* Search
+* Settings
+
+---
+
+## 💻 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/asGithub09/scholarhub.git
 ```
+
+Navigate into the project folder:
+
+```bash
+cd scholarhub
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 📈 Future Enhancements
+
+* Backend Integration
+* User Authentication
+* Database Connectivity
+* Student Dashboard
+* Admin Panel
+* AI-powered Study Assistant
+* Quiz & Assessment Engine
+* Progress Tracking
+* Dark Mode
+* Notifications
+* File Uploads
+* Course Enrollment
+* Certificate Generation
+
+---
+
+## 🤝 Contributing
+
+Contributions, suggestions, and feature requests are welcome.
+
+1. Fork the repository.
+2. Create a feature branch.
+3. Commit your changes.
+4. Push the branch.
+5. Open a Pull Request.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👨‍💻 Developer
+
+**Akash Srivastava**
+
+* GitHub: https://github.com/asGithub09
+* LinkedIn: https://www.linkedin.com/in/akash-srivastava-b5678b165/
+
+---
+
+## 🌟 Vision
+
+ScholarHub aims to become a comprehensive learning platform where students can prepare, practice, and achieve academic success through a seamless and engaging digital experience.
